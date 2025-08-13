@@ -1,0 +1,21 @@
+{
+	"name": "fs-ping",
+	"version": "1.0.0",
+	"type": "module",
+	"description": "A simple Discord bot to show gateway latency.",
+	"main": "src/index.ts",
+	"scripts": {
+		"build": "rm -r build; tsc",
+		"start": "node -r dotenv/config build/index.js",
+		"dev": "pnpm run build && clear && pnpm run start"
+	},
+	"author": "Liam L <thefallenspirit@outlook.com>",
+	"license": "Apache-2.0",
+	"packageManager": "pnpm@10.13.1",
+	"dependencies": {
+		"@types/node": "^24.2.1",
+		"dotenv": "^17.2.1",
+		"seyfert": "^3.2.5",
+		"typescript": "^5.9.2"
+	}
+}

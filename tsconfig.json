@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "outDir": "build",
+        "target": "ES2024",
+        "module": "NodeNext",
+        "skipLibCheck": true,
+        "noUnusedLocals": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "noUnusedParameters": true,
+        "emitDecoratorMetadata": true,
+        "moduleResolution": "NodeNext",
+        "experimentalDecorators": true,
+        "noUncheckedIndexedAccess": true
+    },
+    "tsc-alias": {
+        "resolveFullPaths": true
+    },
+    "include": ["src"],
+    "exclude": ["build", "node_modules"]
+}
